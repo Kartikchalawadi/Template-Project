@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33801.468
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sloki_Flasher_Pro", "Sloki_Flasher_Pro\Sloki_Flasher_Pro.vcxproj", "{4FE25EA7-1E0A-44AC-B569-508E281986C9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "J2534", "J2534\J2534\J2534.vcxproj", "{8361289D-DD3D-4BD8-BC2F-F156A6AAD8A6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CommBridge", "CommBridge\CommBridge.vcxproj", "{E117212C-E4AB-4E6A-8B67-3E1DC91E0558}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sBusUsbDriver", "sBusUsbDriver\sBusUsbDriver\sBusUsbDriver.vcxproj", "{ED75C173-02E5-471A-9417-18B7C089CF00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4FE25EA7-1E0A-44AC-B569-508E281986C9}.Debug|x64.ActiveCfg = Debug|x64
+		{4FE25EA7-1E0A-44AC-B569-508E281986C9}.Debug|x64.Build.0 = Debug|x64
+		{4FE25EA7-1E0A-44AC-B569-508E281986C9}.Debug|x86.ActiveCfg = Debug|Win32
+		{4FE25EA7-1E0A-44AC-B569-508E281986C9}.Debug|x86.Build.0 = Debug|Win32
+		{4FE25EA7-1E0A-44AC-B569-508E281986C9}.Release|x64.ActiveCfg = Release|x64
+		{4FE25EA7-1E0A-44AC-B569-508E281986C9}.Release|x64.Build.0 = Release|x64
+		{4FE25EA7-1E0A-44AC-B569-508E281986C9}.Release|x86.ActiveCfg = Release|Win32
+		{4FE25EA7-1E0A-44AC-B569-508E281986C9}.Release|x86.Build.0 = Release|Win32
+		{8361289D-DD3D-4BD8-BC2F-F156A6AAD8A6}.Debug|x64.ActiveCfg = Debug|x64
+		{8361289D-DD3D-4BD8-BC2F-F156A6AAD8A6}.Debug|x64.Build.0 = Debug|x64
+		{8361289D-DD3D-4BD8-BC2F-F156A6AAD8A6}.Debug|x86.ActiveCfg = Debug|Win32
+		{8361289D-DD3D-4BD8-BC2F-F156A6AAD8A6}.Debug|x86.Build.0 = Debug|Win32
+		{8361289D-DD3D-4BD8-BC2F-F156A6AAD8A6}.Release|x64.ActiveCfg = Release|x64
+		{8361289D-DD3D-4BD8-BC2F-F156A6AAD8A6}.Release|x64.Build.0 = Release|x64
+		{8361289D-DD3D-4BD8-BC2F-F156A6AAD8A6}.Release|x86.ActiveCfg = Release|Win32
+		{8361289D-DD3D-4BD8-BC2F-F156A6AAD8A6}.Release|x86.Build.0 = Release|Win32
+		{E117212C-E4AB-4E6A-8B67-3E1DC91E0558}.Debug|x64.ActiveCfg = Debug|x64
+		{E117212C-E4AB-4E6A-8B67-3E1DC91E0558}.Debug|x64.Build.0 = Debug|x64
+		{E117212C-E4AB-4E6A-8B67-3E1DC91E0558}.Debug|x86.ActiveCfg = Debug|Win32
+		{E117212C-E4AB-4E6A-8B67-3E1DC91E0558}.Debug|x86.Build.0 = Debug|Win32
+		{E117212C-E4AB-4E6A-8B67-3E1DC91E0558}.Release|x64.ActiveCfg = Release|x64
+		{E117212C-E4AB-4E6A-8B67-3E1DC91E0558}.Release|x64.Build.0 = Release|x64
+		{E117212C-E4AB-4E6A-8B67-3E1DC91E0558}.Release|x86.ActiveCfg = Release|Win32
+		{E117212C-E4AB-4E6A-8B67-3E1DC91E0558}.Release|x86.Build.0 = Release|Win32
+		{ED75C173-02E5-471A-9417-18B7C089CF00}.Debug|x64.ActiveCfg = Debug|x64
+		{ED75C173-02E5-471A-9417-18B7C089CF00}.Debug|x64.Build.0 = Debug|x64
+		{ED75C173-02E5-471A-9417-18B7C089CF00}.Debug|x86.ActiveCfg = Debug|Win32
+		{ED75C173-02E5-471A-9417-18B7C089CF00}.Debug|x86.Build.0 = Debug|Win32
+		{ED75C173-02E5-471A-9417-18B7C089CF00}.Release|x64.ActiveCfg = Release|x64
+		{ED75C173-02E5-471A-9417-18B7C089CF00}.Release|x64.Build.0 = Release|x64
+		{ED75C173-02E5-471A-9417-18B7C089CF00}.Release|x86.ActiveCfg = Release|Win32
+		{ED75C173-02E5-471A-9417-18B7C089CF00}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ECF1F774-EC87-49A9-A5B7-8A9F8A89D0C5}
+	EndGlobalSection
+EndGlobal
